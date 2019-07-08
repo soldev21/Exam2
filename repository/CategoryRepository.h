@@ -13,6 +13,7 @@ class CategoryRepository: public StandardRepository<int,Category> {
 public:
     Category *findByKey(const int &key);
 
+    vector<Category*>* findAll();
     void save(const Category &u);
 
     void remove(const Category &u);

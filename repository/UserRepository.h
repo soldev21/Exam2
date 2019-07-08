@@ -9,6 +9,9 @@ class UserRepository: public StandardRepository<string,User> {
 public:
     User *findByKey(const string &key);
 
+
+    vector<User*>* findAll();
+
     void save(const User &u);
 
     void remove(const User &u);

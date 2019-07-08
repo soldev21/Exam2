@@ -95,8 +95,9 @@ void AdminManagement::handleCommand(string const command) {
     } else if (command == C.ED_U) {
         Utils::editUser();
     } else if (command == C.CR_CAT) {
-
+        Utils::createCategory(){}
     } else if (command == C.CR_EX) {
+        Utils::createExam();
 
     }
 }

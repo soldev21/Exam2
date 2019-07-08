@@ -1,6 +1,9 @@
 
 #include "Utils.h"
 #include "../dao/UserDao.h"
+#include "../model/Category.h"
+#include "../model/Exam.h"
+#include "../dao/CategoryDao.h"
 
 
 string Utils::getHashed(string s){
@@ -35,4 +38,26 @@ bool Utils::changePassword(User user){
 
 void Utils::editUser(){
 
+}
+
+void Utils::createCategory(){
+    Category *category = new Category();
+    write("Enter category name: ");
+    category->setDescription(read());
+    write("Enter sub category name: ");
+    category->setSubCategory(read());
+    CategoryDao::getInstance()->getRepository().save(*category);
+}
+
+void createExam(){
+    Exam *exam = new Exam();
+    Utils::write("Enter max question: ");
+    exam->setMaxQuestions(atoi (Utils::read().c_str()));
+    Utils::writeln("Choose category");
+    vector<Category*> * vector1 = CategoryDao::getInstance()->getRepository().findAll();
+    for(vector<Category*>::iterator itr = vector1->begin();itr!=vector1->end();++itr){
+        Utils::write((*itr)->getDescription());
+    }
+    exam->setCategory(*CategoryDao::getInstance()->getRepository().findByKey(atoi(Utils::read().c_str())));
+//    ExamDao::.examRepository.save(exam);
 }

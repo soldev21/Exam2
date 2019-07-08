@@ -17,11 +17,12 @@ public:
     static string getHashed(string s);
     static string read();
     static void write(string s);
-
     static void writeln(string s);
     static bool changePassword(User user);
-
     static void editUser();
+    static void createCategory();
+    static void createExam();
+
 };
 
 

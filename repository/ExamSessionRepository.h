@@ -13,6 +13,8 @@ class ExamSessionRepository: public StandardRepository<string,ExamSession> {
 public:
     ExamSession *findByKey(const string &key);
 
+    vector<ExamSession*>* findAll();
+
     void save(const ExamSession &u);
 
     void remove(const ExamSession &u);

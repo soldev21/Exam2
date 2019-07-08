@@ -1,66 +1,51 @@
-#ifndef USER
-#define USER
 
-#include <string>
 
-using namespace std;
+#include "User.h"
 
-class User{
-private:
-    string username;
-    string password;
-    string name;
-    string address;
-    string phone;
-    bool admin;
-public:
-    const string &getUsername() const {
-        return username;
-    }
+const string &User::getUsername() const {
+    return username;
+}
 
-    void setUsername(const string &username) {
-        User::username = username;
-    }
+void User::setUsername(const string &username) {
+    User::username = username;
+}
 
-    const string &getPassword() const {
-        return password;
-    }
+const string &User::getPassword() const {
+    return password;
+}
 
-    void setPassword(const string &password) {
-        User::password = password;
-    }
+void User::setPassword(const string &password) {
+    User::password = password;
+}
 
-    const string &getName() const {
-        return name;
-    }
+const string &User::getName() const {
+    return name;
+}
 
-    void setName(const string &name) {
-        User::name = name;
-    }
+void User::setName(const string &name) {
+    User::name = name;
+}
 
-    const string &getAddress() const {
-        return address;
-    }
+const string &User::getAddress() const {
+    return address;
+}
 
-    void setAddress(const string &address) {
-        User::address = address;
-    }
+void User::setAddress(const string &address) {
+    User::address = address;
+}
 
-    const string &getPhone() const {
-        return phone;
-    }
+const string &User::getPhone() const {
+    return phone;
+}
 
-    void setPhone(const string &phone) {
-        User::phone = phone;
-    }
+void User::setPhone(const string &phone) {
+    User::phone = phone;
+}
 
-    bool isAdmin() const {
-        return admin;
-    }
+bool User::isAdmin() const {
+    return admin;
+}
 
-    void setAdmin(bool admin) {
-        User::admin = admin;
-    }
-};
-
-#endif
+void User::setAdmin(bool admin) {
+    User::admin = admin;
+}

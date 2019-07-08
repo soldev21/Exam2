@@ -1,70 +1,53 @@
-#ifndef EXAM_SESSION
-#define EXAM_SESSION
+
+#include "ExamSession.h"
 
 
-#include "User.cpp"
-#include "Exam.cpp"
-
-class ExamSession {
-private:
-    User user;
-    Exam exam;
-    Map<int,bool> answerHistory;
-    int correctAnswers;
-    bool finished;
-public:
-    const User &getUser() const {
-        return user;
+float ExamSession::getTotalPoints(){
+    float sum =0;
+    for (map<int,bool>::iterator it = answerHistory.begin(); it!=answerHistory.end();++it){
+        int p = exam.getQuestions().get(it->first)->getPoint();
+        int c = exam.getQuestions().get(it->first)->getWrongCoefficent();
+        if (it->second)  sum+=p; else sum-=p/c;
     }
+    return sum;
+}
 
-    void setUser(const User &user) {
-        ExamSession::user = user;
-    }
+const User &ExamSession::getUser() const {
+    return user;
+}
 
-    const Exam &getExam() const {
-        return exam;
-    }
+void ExamSession::setUser(const User &user) {
+    ExamSession::user = user;
+}
 
-    void setExam(const Exam &exam) {
-        ExamSession::exam = exam;
-    }
+const Exam &ExamSession::getExam() const {
+    return exam;
+}
 
-    const Map<int, bool> &getAnswerHistory() const {
-        return answerHistory;
-    }
+void ExamSession::setExam(const Exam &exam) {
+    ExamSession::exam = exam;
+}
 
-    void setAnswerHistory(const Map<int, bool> &answerHistory) {
-        ExamSession::answerHistory = answerHistory;
-    }
+const Map<int, bool> &ExamSession::getAnswerHistory() const {
+    return answerHistory;
+}
 
-    int getCorrectAnswers() const {
-        return correctAnswers;
-    }
+void ExamSession::setAnswerHistory(const Map<int, bool> &answerHistory) {
+    ExamSession::answerHistory = answerHistory;
+}
 
-    void setCorrectAnswers(int correctAnswers) {
-        ExamSession::correctAnswers = correctAnswers;
-    }
+int ExamSession::getCorrectAnswers() const {
+    return correctAnswers;
+}
 
-    bool isFinished() const {
-        return finished;
-    }
+void ExamSession::setCorrectAnswers(int correctAnswers) {
+    ExamSession::correctAnswers = correctAnswers;
+}
 
-    void setFinished(bool finished) {
-        ExamSession::finished = finished;
-    }
+bool ExamSession::isFinished() const {
+    return finished;
+}
 
-
-public:
-    float getTotalPoints(){
-        float sum =0;
-        for (map<int,bool>::iterator it = answerHistory.begin(); it!=answerHistory.end();++it){
-            int p = exam.getQuestions().get(it->first)->getPoint();
-            int c = exam.getQuestions().get(it->first)->getWrongCoefficent();
-            if (it->second)  sum+=p; else sum-=p/c;
-        }
-        return sum;
-    }
-};
-
-
-#endif
+void ExamSession::setFinished(bool finished) {
+    ExamSession::finished = finished;
+}

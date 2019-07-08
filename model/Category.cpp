@@ -1,39 +1,29 @@
-#ifndef CATEGORY
-#define CATEGORY
+//
+// Created by s.huseynli on 7/8/2019.
+//
 
-#include <string>
+#include "Category.h"
 
-using namespace std;
+int Category::getId() const {
+    return id;
+}
 
-class Category{
-private:
-    int id;
-    string description;
-    string subCategory;
-public:
-    int getId() const {
-        return id;
-    }
+void Category::setId(int id) {
+    Category::id = id;
+}
 
-    void setId(int id) {
-        Category::id = id;
-    }
+const string &Category::getDescription() const {
+    return description;
+}
 
-    const string &getDescription() const {
-        return description;
-    }
+void Category::setDescription(const string &description) {
+    Category::description = description;
+}
 
-    void setDescription(const string &description) {
-        Category::description = description;
-    }
+const string &Category::getSubCategory() const {
+    return subCategory;
+}
 
-    const string &getSubCategory() const {
-        return subCategory;
-    }
-
-    void setSubCategory(const string &subCategory) {
-        Category::subCategory = subCategory;
-    }
-};
-
-#endif
+void Category::setSubCategory(const string &subCategory) {
+    Category::subCategory = subCategory;
+}

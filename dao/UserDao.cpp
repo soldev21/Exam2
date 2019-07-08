@@ -1,12 +1,8 @@
-#ifndef USER_DAO
-#define USER_DAO
+#include "UserDao.h"
 
-#include "../repository/UserRepository.cpp"
+UserRepository & UserDao::getRepository(){
+    return repository;
+}
 
+UserDao *UserDao::userDao = 0;
 
-class UserDao{
-public:
-     static UserRepository userRepository;
-};
-
-#endif

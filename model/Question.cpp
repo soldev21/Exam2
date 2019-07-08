@@ -1,112 +1,87 @@
-#ifndef QUESTION
-#define QUESTION
+#include "Question.h"
 
-#include <sstream>
-#include "../collections/Map.cpp"
+int Question::getKey() const {
+    return key;
+}
 
-using namespace std;
+void Question::setKey(int key) {
+    Question::key = key;
+}
 
-class Question{
-private:
-    int key;
-    int id;
-    int maxAnswerCount;
-    string description;
-    Map<string,string> possibleAnswers;
-    string correctAnswer;
-    int wrongCoefficent;
-    int point;
+int Question::getId() const {
+    return id;
+}
 
+void Question::setId(int id) {
+    Question::id = id;
+}
 
+int Question::getMaxAnswerCount() const {
+    return maxAnswerCount;
+}
 
-public:
-    int getId() const {
-        return id;
-    }
+void Question::setMaxAnswerCount(int maxAnswerCount) {
+    Question::maxAnswerCount = maxAnswerCount;
+}
 
-    void setId(int id) {
-        Question::id = id;
-    }
+const string &Question::getDescription() const {
+    return description;
+}
 
-    int getMaxAnswerCount() const {
-        return maxAnswerCount;
-    }
+void Question::setDescription(const string &description) {
+    Question::description = description;
+}
 
-    void setMaxAnswerCount(int maxAnswerCount) {
-        Question::maxAnswerCount = maxAnswerCount;
-    }
+const Map<string, string> &Question::getPossibleAnswers() const {
+    return possibleAnswers;
+}
 
-    const string &getDescription() const {
-        return description;
-    }
+void Question::setPossibleAnswers(const Map<string, string> &possibleAnswers) {
+    Question::possibleAnswers = possibleAnswers;
+}
 
-    void setDescription(const string &description) {
-        Question::description = description;
-    }
+const string &Question::getCorrectAnswer() const {
+    return correctAnswer;
+}
 
-    const Map<string, string> &getPossibleAnswers() const {
-        return possibleAnswers;
-    }
+int Question::getWrongCoefficent() const {
+    return wrongCoefficent;
+}
 
-    void setPossibleAnswers(const Map<string, string> &possibleAnswers) {
-        Question::possibleAnswers = possibleAnswers;
-    }
+void Question::setWrongCoefficent(int wrongCoefficent) {
+    Question::wrongCoefficent = wrongCoefficent;
+}
 
-    int getWrongCoefficent() const {
-        return wrongCoefficent;
-    }
+int Question::getPoint() const {
+    return point;
+}
 
-    void setWrongCoefficent(int wrongCoefficent) {
-        Question::wrongCoefficent = wrongCoefficent;
-    }
-    const string &getCorrectAnswer() const {
-        return correctAnswer;
-    }
-    int getPoint() const {
-        return point;
-    }
+void Question::setPoint(int point) {
+    Question::point = point;
+}
 
-    void setPoint(int point) {
-        Question::point = point;
-    }
+Question::Question(int id, int maxAnswerCount) : id(id),maxAnswerCount(maxAnswerCount){
+    key = 65;
+}
 
-
-
-public:
-    Question(int id, int maxAnswerCount) : id(id),maxAnswerCount(maxAnswerCount){
-        key = 65;
-    }
-
-    string addAnswer(string answer){
-        if (possibleAnswers.size() == maxAnswerCount) return "\0";
-        string a;
-        a.push_back((char) key++);
-        possibleAnswers.put(a,answer);
-        return a;
-    }
+string Question::addAnswer(string answer){
+    if (possibleAnswers.size() == maxAnswerCount) return "\0";
+    string a;
+    a.push_back((char) key++);
+    possibleAnswers.put(a,answer);
+    return a;
+}
 
 
-    void removeAnswer(string key){
-        possibleAnswers.remove(key);
-        if (correctAnswer == key) correctAnswer = "\0";
-    }
+void Question::removeAnswer(string key){
+    possibleAnswers.remove(key);
+    if (correctAnswer == key) correctAnswer = "\0";
+}
 
-    bool setCorrectAnswer(string correctAnswer){
-        if (possibleAnswers.containsKey(correctAnswer))
-            this->correctAnswer = correctAnswer; else return false;
-        return true;
-    }
-
-    friend ostream &operator << (ostream & o,Question & q){
-        stringstream s;
-        s<< "Question "<< q.id << ": \n" << q.description << "\n";
-        for (map<string,string>::iterator it = q.possibleAnswers.begin(); it!=q.possibleAnswers.end(); ++it){
-            s<< it->first<< ") " << it->second << "\n";
-        }
-        o<<s.str();
-        return o;
-    }
-};
+bool Question::setCorrectAnswer(string correctAnswer){
+    if (possibleAnswers.containsKey(correctAnswer))
+        this->correctAnswer = correctAnswer; else return false;
+    return true;
+}
 
 
-#endif

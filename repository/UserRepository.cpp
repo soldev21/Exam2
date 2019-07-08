@@ -1,22 +1,14 @@
-#ifndef USER_REPO
-#define USER_REPO
 
-#include "StandardRepository.cpp"
-#include "../model/User.cpp"
 
-class UserRepository : public StandardRepository<string,User> {
+#include "UserRepository.h"
 
-public:
-    User* findByKey(string const& key) {
-        return registry.get(key);
-    }
-    void save(User const& u){
-        registry.put(u.getUsername(),u);
-    }
-    void remove(User const& u){
-        registry.remove(u.getUsername());
-    }
 
-};
-
-#endif
+User* UserRepository::findByKey(string const& key) {
+    return registry.get(key);
+}
+void UserRepository::save(User const& u){
+    registry.put(u.getUsername(),u);
+}
+void UserRepository::remove(User const& u){
+    registry.remove(u.getUsername());
+}

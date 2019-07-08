@@ -1,38 +1,29 @@
-#ifndef AUTH_RESPONSE
-#define AUTH_RESPONSE
+//
+// Created by s.huseynli on 7/8/2019.
+//
 
-#include "User.cpp"
+#include "AuthResponse.h"
 
-using namespace std;
+int AuthResponse::getCode() const {
+    return code;
+}
 
-class AuthResponse{
-    int code;
-    string desc;
-    User user;
-public:
-    int getCode() const {
-        return code;
-    }
+void AuthResponse::setCode(int code) {
+    AuthResponse::code = code;
+}
 
-    void setCode(int code) {
-        AuthResponse::code = code;
-    }
+const string &AuthResponse::getDesc() const {
+    return desc;
+}
 
-    const string &getDesc() const {
-        return desc;
-    }
+void AuthResponse::setDesc(const string &desc) {
+    AuthResponse::desc = desc;
+}
 
-    void setDesc(const string &desc) {
-        AuthResponse::desc = desc;
-    }
+User &AuthResponse::getUser() {
+    return user;
+}
 
-    const User &getUser() const {
-        return user;
-    }
-
-    void setUser(const User &user) {
-        AuthResponse::user = user;
-    }
-};
-
-#endif
+void AuthResponse::setUser(const User &user) {
+    AuthResponse::user = user;
+}

@@ -1,22 +1,16 @@
-#ifndef CATEGORY_REPO
-#define CATEGORY_REPO
+//
+// Created by s.huseynli on 7/8/2019.
+//
 
-#include "StandardRepository.cpp"
-#include "../model/Category.cpp"
+#include "CategoryRepository.h"
 
-class CategoryRepository : public StandardRepository<int,Category> {
 
-public:
-    Category* findByKey(int const& key) {
-        return registry.get(key);
-    }
-    void save(Category const& u){
-        registry.put(u.getId(),u);
-    }
-    void remove(Category const& u){
-        registry.remove(u.getId());
-    }
-
-};
-
-#endif
+Category* CategoryRepository::findByKey(int const& key) {
+    return registry.get(key);
+}
+void CategoryRepository::save(Category const& u){
+    registry.put(u.getId(),u);
+}
+void CategoryRepository::remove(Category const& u){
+    registry.remove(u.getId());
+}

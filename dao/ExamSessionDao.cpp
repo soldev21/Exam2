@@ -1,13 +1,12 @@
-#ifndef EXAM_SESSION_DAO
-#define EXAM_SESSION_DAO
+//
+// Created by s.huseynli on 7/8/2019.
+//
 
-#include "../repository/ExamSessionRespository.cpp"
-
-
-class ExamSessionDao{
-public:
-    static ExamSessionRepository examSessionRespository;
-};
+#include "ExamSessionDao.h"
 
 
-#endif
+ExamSessionRepository & ExamSessionDao::getRepository() {
+    return repository;
+}
+
+ExamSessionDao *ExamSessionDao::examSessionDao1 = 0;

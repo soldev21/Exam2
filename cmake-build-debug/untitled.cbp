@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/untitled.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,87 +63,138 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Sherif/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/s.huseynli/CLionProjects/Exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/auth/Authentication.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/auth/Authentication.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/collections/Map.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/auth/Authentication.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/collections/Map.h">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/dao/CategoryDao.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/dao/ExamSessionDao.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/core/AdminManagement.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/dao/UserDao.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/core/AuthManagement.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/main.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/core/CoreManagement.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/model/AuthResponse.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/core/UserManagement.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/model/Category.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/model/Exam.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/model/ExamSession.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/model/Question.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/model/User.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/repository/CategoryRepository.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/repository/ExamSessionRespository.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/repository/Repository.h">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/AuthResponse.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/repository/StandardRepository.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/AuthResponse.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/repository/UserRepository.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/util/Utils.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/util/sha256.cpp">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/util/sha256.h">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="C:/Users/Sherif/CLionProjects/untitled/CMakeLists.txt">
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/ExamSession.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/ExamSession.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/User.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/UserRepository.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/UserRepository.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/util/sha256.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/util/sha256.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

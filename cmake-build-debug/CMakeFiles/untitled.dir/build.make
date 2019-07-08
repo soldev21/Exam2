@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Sherif\CLionProjects\untitled
+CMAKE_SOURCE_DIR = C:\Users\s.huseynli\CLionProjects\Exam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -58,285 +58,270 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\main.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\main.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\main.cpp > CMakeFiles\untitled.dir\main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
-
-CMakeFiles/untitled.dir/model/User.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/model/User.cpp.obj: ../model/User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/model/User.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\User.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\model\User.cpp
-
-CMakeFiles/untitled.dir/model/User.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/User.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\model\User.cpp > CMakeFiles\untitled.dir\model\User.cpp.i
-
-CMakeFiles/untitled.dir/model/User.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/User.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\model\User.cpp -o CMakeFiles\untitled.dir\model\User.cpp.s
-
-CMakeFiles/untitled.dir/model/Category.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/model/Category.cpp.obj: ../model/Category.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/model/Category.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\Category.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\model\Category.cpp
-
-CMakeFiles/untitled.dir/model/Category.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/Category.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\model\Category.cpp > CMakeFiles\untitled.dir\model\Category.cpp.i
-
-CMakeFiles/untitled.dir/model/Category.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/Category.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\model\Category.cpp -o CMakeFiles\untitled.dir\model\Category.cpp.s
-
-CMakeFiles/untitled.dir/util/Utils.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../util/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/util/Utils.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\util\Utils.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\util\Utils.cpp
-
-CMakeFiles/untitled.dir/util/Utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/util/Utils.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\util\Utils.cpp > CMakeFiles\untitled.dir\util\Utils.cpp.i
-
-CMakeFiles/untitled.dir/util/Utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/util/Utils.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\util\Utils.cpp -o CMakeFiles\untitled.dir\util\Utils.cpp.s
-
-CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj: ../model/AuthResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\AuthResponse.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\model\AuthResponse.cpp
-
-CMakeFiles/untitled.dir/model/AuthResponse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/AuthResponse.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\model\AuthResponse.cpp > CMakeFiles\untitled.dir\model\AuthResponse.cpp.i
-
-CMakeFiles/untitled.dir/model/AuthResponse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/AuthResponse.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\model\AuthResponse.cpp -o CMakeFiles\untitled.dir\model\AuthResponse.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\main.cpp -o CMakeFiles\untitled.dir\main.cpp.s
 
 CMakeFiles/untitled.dir/collections/Map.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/collections/Map.cpp.obj: ../collections/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/collections/Map.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\collections\Map.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\collections\Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/collections/Map.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\collections\Map.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\collections\Map.cpp
 
 CMakeFiles/untitled.dir/collections/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/collections/Map.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\collections\Map.cpp > CMakeFiles\untitled.dir\collections\Map.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\collections\Map.cpp > CMakeFiles\untitled.dir\collections\Map.cpp.i
 
 CMakeFiles/untitled.dir/collections/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/collections/Map.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\collections\Map.cpp -o CMakeFiles\untitled.dir\collections\Map.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\collections\Map.cpp -o CMakeFiles\untitled.dir\collections\Map.cpp.s
 
 CMakeFiles/untitled.dir/util/sha256.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/util/sha256.cpp.obj: ../util/sha256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/util/sha256.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\util\sha256.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\util\sha256.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/util/sha256.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\util\sha256.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\util\sha256.cpp
 
 CMakeFiles/untitled.dir/util/sha256.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/util/sha256.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\util\sha256.cpp > CMakeFiles\untitled.dir\util\sha256.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\util\sha256.cpp > CMakeFiles\untitled.dir\util\sha256.cpp.i
 
 CMakeFiles/untitled.dir/util/sha256.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/util/sha256.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\util\sha256.cpp -o CMakeFiles\untitled.dir\util\sha256.cpp.s
-
-CMakeFiles/untitled.dir/model/Question.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/model/Question.cpp.obj: ../model/Question.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled.dir/model/Question.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\Question.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\model\Question.cpp
-
-CMakeFiles/untitled.dir/model/Question.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/Question.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\model\Question.cpp > CMakeFiles\untitled.dir\model\Question.cpp.i
-
-CMakeFiles/untitled.dir/model/Question.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/Question.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\model\Question.cpp -o CMakeFiles\untitled.dir\model\Question.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\util\sha256.cpp -o CMakeFiles\untitled.dir\util\sha256.cpp.s
 
 CMakeFiles/untitled.dir/model/Exam.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/model/Exam.cpp.obj: ../model/Exam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled.dir/model/Exam.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\Exam.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\model\Exam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/model/Exam.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\Exam.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\model\Exam.cpp
 
 CMakeFiles/untitled.dir/model/Exam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/Exam.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\model\Exam.cpp > CMakeFiles\untitled.dir\model\Exam.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\model\Exam.cpp > CMakeFiles\untitled.dir\model\Exam.cpp.i
 
 CMakeFiles/untitled.dir/model/Exam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/Exam.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\model\Exam.cpp -o CMakeFiles\untitled.dir\model\Exam.cpp.s
-
-CMakeFiles/untitled.dir/model/ExamSession.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/model/ExamSession.cpp.obj: ../model/ExamSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled.dir/model/ExamSession.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\ExamSession.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\model\ExamSession.cpp
-
-CMakeFiles/untitled.dir/model/ExamSession.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/ExamSession.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\model\ExamSession.cpp > CMakeFiles\untitled.dir\model\ExamSession.cpp.i
-
-CMakeFiles/untitled.dir/model/ExamSession.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/ExamSession.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\model\ExamSession.cpp -o CMakeFiles\untitled.dir\model\ExamSession.cpp.s
-
-CMakeFiles/untitled.dir/repository/StandardRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/repository/StandardRepository.cpp.obj: ../repository/StandardRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled.dir/repository/StandardRepository.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\StandardRepository.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\repository\StandardRepository.cpp
-
-CMakeFiles/untitled.dir/repository/StandardRepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/StandardRepository.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\repository\StandardRepository.cpp > CMakeFiles\untitled.dir\repository\StandardRepository.cpp.i
-
-CMakeFiles/untitled.dir/repository/StandardRepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/StandardRepository.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\repository\StandardRepository.cpp -o CMakeFiles\untitled.dir\repository\StandardRepository.cpp.s
-
-CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj: ../repository/UserRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\UserRepository.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\repository\UserRepository.cpp
-
-CMakeFiles/untitled.dir/repository/UserRepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/UserRepository.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\repository\UserRepository.cpp > CMakeFiles\untitled.dir\repository\UserRepository.cpp.i
-
-CMakeFiles/untitled.dir/repository/UserRepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/UserRepository.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\repository\UserRepository.cpp -o CMakeFiles\untitled.dir\repository\UserRepository.cpp.s
-
-CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: ../repository/CategoryRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\CategoryRepository.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\repository\CategoryRepository.cpp
-
-CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\repository\CategoryRepository.cpp > CMakeFiles\untitled.dir\repository\CategoryRepository.cpp.i
-
-CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\repository\CategoryRepository.cpp -o CMakeFiles\untitled.dir\repository\CategoryRepository.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\model\Exam.cpp -o CMakeFiles\untitled.dir\model\Exam.cpp.s
 
 CMakeFiles/untitled.dir/dao/UserDao.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/dao/UserDao.cpp.obj: ../dao/UserDao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled.dir/dao/UserDao.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\UserDao.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\dao\UserDao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/dao/UserDao.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\UserDao.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\dao\UserDao.cpp
 
 CMakeFiles/untitled.dir/dao/UserDao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dao/UserDao.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\dao\UserDao.cpp > CMakeFiles\untitled.dir\dao\UserDao.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\dao\UserDao.cpp > CMakeFiles\untitled.dir\dao\UserDao.cpp.i
 
 CMakeFiles/untitled.dir/dao/UserDao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/UserDao.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\dao\UserDao.cpp -o CMakeFiles\untitled.dir\dao\UserDao.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\dao\UserDao.cpp -o CMakeFiles\untitled.dir\dao\UserDao.cpp.s
 
-CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: ../dao/CategoryDao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\CategoryDao.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\dao\CategoryDao.cpp
+CMakeFiles/untitled.dir/model/User.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/model/User.cpp.obj: ../model/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/model/User.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\User.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\model\User.cpp
 
-CMakeFiles/untitled.dir/dao/CategoryDao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dao/CategoryDao.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\dao\CategoryDao.cpp > CMakeFiles\untitled.dir\dao\CategoryDao.cpp.i
+CMakeFiles/untitled.dir/model/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/User.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\model\User.cpp > CMakeFiles\untitled.dir\model\User.cpp.i
 
-CMakeFiles/untitled.dir/dao/CategoryDao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/CategoryDao.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\dao\CategoryDao.cpp -o CMakeFiles\untitled.dir\dao\CategoryDao.cpp.s
+CMakeFiles/untitled.dir/model/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/User.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\model\User.cpp -o CMakeFiles\untitled.dir\model\User.cpp.s
 
-CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: ../dao/ExamSessionDao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\dao\ExamSessionDao.cpp
+CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj: ../model/AuthResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\AuthResponse.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\model\AuthResponse.cpp
 
-CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\dao\ExamSessionDao.cpp > CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.i
+CMakeFiles/untitled.dir/model/AuthResponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/AuthResponse.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\model\AuthResponse.cpp > CMakeFiles\untitled.dir\model\AuthResponse.cpp.i
 
-CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\dao\ExamSessionDao.cpp -o CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.s
+CMakeFiles/untitled.dir/model/AuthResponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/AuthResponse.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\model\AuthResponse.cpp -o CMakeFiles\untitled.dir\model\AuthResponse.cpp.s
 
-CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.obj: ../repository/ExamSessionRespository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\ExamSessionRespository.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\repository\ExamSessionRespository.cpp
+CMakeFiles/untitled.dir/model/Category.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/model/Category.cpp.obj: ../model/Category.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled.dir/model/Category.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\Category.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\model\Category.cpp
 
-CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\repository\ExamSessionRespository.cpp > CMakeFiles\untitled.dir\repository\ExamSessionRespository.cpp.i
+CMakeFiles/untitled.dir/model/Category.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/Category.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\model\Category.cpp > CMakeFiles\untitled.dir\model\Category.cpp.i
 
-CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\repository\ExamSessionRespository.cpp -o CMakeFiles\untitled.dir\repository\ExamSessionRespository.cpp.s
+CMakeFiles/untitled.dir/model/Category.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/Category.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\model\Category.cpp -o CMakeFiles\untitled.dir\model\Category.cpp.s
+
+CMakeFiles/untitled.dir/model/Question.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/model/Question.cpp.obj: ../model/Question.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled.dir/model/Question.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\Question.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\model\Question.cpp
+
+CMakeFiles/untitled.dir/model/Question.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/Question.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\model\Question.cpp > CMakeFiles\untitled.dir\model\Question.cpp.i
+
+CMakeFiles/untitled.dir/model/Question.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/Question.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\model\Question.cpp -o CMakeFiles\untitled.dir\model\Question.cpp.s
+
+CMakeFiles/untitled.dir/model/ExamSession.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/model/ExamSession.cpp.obj: ../model/ExamSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled.dir/model/ExamSession.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\model\ExamSession.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\model\ExamSession.cpp
+
+CMakeFiles/untitled.dir/model/ExamSession.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/model/ExamSession.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\model\ExamSession.cpp > CMakeFiles\untitled.dir\model\ExamSession.cpp.i
+
+CMakeFiles/untitled.dir/model/ExamSession.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/model/ExamSession.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\model\ExamSession.cpp -o CMakeFiles\untitled.dir\model\ExamSession.cpp.s
+
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../util/Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled.dir/util/Utils.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\util\Utils.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\util\Utils.cpp
+
+CMakeFiles/untitled.dir/util/Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/util/Utils.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\util\Utils.cpp > CMakeFiles\untitled.dir\util\Utils.cpp.i
+
+CMakeFiles/untitled.dir/util/Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/util/Utils.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\util\Utils.cpp -o CMakeFiles\untitled.dir\util\Utils.cpp.s
 
 CMakeFiles/untitled.dir/auth/Authentication.cpp.obj: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/auth/Authentication.cpp.obj: ../auth/Authentication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/untitled.dir/auth/Authentication.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\auth\Authentication.cpp.obj -c C:\Users\Sherif\CLionProjects\untitled\auth\Authentication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled.dir/auth/Authentication.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\auth\Authentication.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\auth\Authentication.cpp
 
 CMakeFiles/untitled.dir/auth/Authentication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/auth/Authentication.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sherif\CLionProjects\untitled\auth\Authentication.cpp > CMakeFiles\untitled.dir\auth\Authentication.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\auth\Authentication.cpp > CMakeFiles\untitled.dir\auth\Authentication.cpp.i
 
 CMakeFiles/untitled.dir/auth/Authentication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/auth/Authentication.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Sherif\CLionProjects\untitled\auth\Authentication.cpp -o CMakeFiles\untitled.dir\auth\Authentication.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\auth\Authentication.cpp -o CMakeFiles\untitled.dir\auth\Authentication.cpp.s
+
+CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj: ../repository/UserRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\UserRepository.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\repository\UserRepository.cpp
+
+CMakeFiles/untitled.dir/repository/UserRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/UserRepository.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\repository\UserRepository.cpp > CMakeFiles\untitled.dir\repository\UserRepository.cpp.i
+
+CMakeFiles/untitled.dir/repository/UserRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/UserRepository.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\repository\UserRepository.cpp -o CMakeFiles\untitled.dir\repository\UserRepository.cpp.s
+
+CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: ../repository/CategoryRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\CategoryRepository.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\repository\CategoryRepository.cpp
+
+CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\repository\CategoryRepository.cpp > CMakeFiles\untitled.dir\repository\CategoryRepository.cpp.i
+
+CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\repository\CategoryRepository.cpp -o CMakeFiles\untitled.dir\repository\CategoryRepository.cpp.s
+
+CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj: ../repository/ExamSessionRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\ExamSessionRepository.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\repository\ExamSessionRepository.cpp
+
+CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\repository\ExamSessionRepository.cpp > CMakeFiles\untitled.dir\repository\ExamSessionRepository.cpp.i
+
+CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\repository\ExamSessionRepository.cpp -o CMakeFiles\untitled.dir\repository\ExamSessionRepository.cpp.s
+
+CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: ../dao/CategoryDao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\CategoryDao.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\dao\CategoryDao.cpp
+
+CMakeFiles/untitled.dir/dao/CategoryDao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dao/CategoryDao.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\dao\CategoryDao.cpp > CMakeFiles\untitled.dir\dao\CategoryDao.cpp.i
+
+CMakeFiles/untitled.dir/dao/CategoryDao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/CategoryDao.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\dao\CategoryDao.cpp -o CMakeFiles\untitled.dir\dao\CategoryDao.cpp.s
+
+CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: ../dao/ExamSessionDao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamSessionDao.cpp
+
+CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamSessionDao.cpp > CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.i
+
+CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamSessionDao.cpp -o CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
-"CMakeFiles/untitled.dir/model/User.cpp.obj" \
-"CMakeFiles/untitled.dir/model/Category.cpp.obj" \
-"CMakeFiles/untitled.dir/util/Utils.cpp.obj" \
-"CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj" \
 "CMakeFiles/untitled.dir/collections/Map.cpp.obj" \
 "CMakeFiles/untitled.dir/util/sha256.cpp.obj" \
-"CMakeFiles/untitled.dir/model/Question.cpp.obj" \
 "CMakeFiles/untitled.dir/model/Exam.cpp.obj" \
+"CMakeFiles/untitled.dir/dao/UserDao.cpp.obj" \
+"CMakeFiles/untitled.dir/model/User.cpp.obj" \
+"CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj" \
+"CMakeFiles/untitled.dir/model/Category.cpp.obj" \
+"CMakeFiles/untitled.dir/model/Question.cpp.obj" \
 "CMakeFiles/untitled.dir/model/ExamSession.cpp.obj" \
-"CMakeFiles/untitled.dir/repository/StandardRepository.cpp.obj" \
+"CMakeFiles/untitled.dir/util/Utils.cpp.obj" \
+"CMakeFiles/untitled.dir/auth/Authentication.cpp.obj" \
 "CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj" \
 "CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj" \
-"CMakeFiles/untitled.dir/dao/UserDao.cpp.obj" \
+"CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj" \
 "CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj" \
-"CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj" \
-"CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.obj" \
-"CMakeFiles/untitled.dir/auth/Authentication.cpp.obj"
+"CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/model/User.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/model/Category.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/util/Utils.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/collections/Map.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/util/sha256.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/model/Question.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/model/Exam.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/dao/UserDao.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/model/User.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/model/AuthResponse.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/model/Category.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/model/Question.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/model/ExamSession.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/repository/StandardRepository.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/util/Utils.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/auth/Authentication.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/dao/UserDao.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/auth/Authentication.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -349,6 +334,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Sherif\CLionProjects\untitled C:\Users\Sherif\CLionProjects\untitled C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\s.huseynli\CLionProjects\Exam2 C:\Users\s.huseynli\CLionProjects\Exam2 C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

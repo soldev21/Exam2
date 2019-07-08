@@ -1,54 +1,43 @@
-#ifndef EXAM
-#define EXAM
+//
+// Created by s.huseynli on 7/8/2019.
+//
 
-#include "Category.cpp"
-#include "Question.cpp"
-#include "../collections/Map.cpp"
+#include "Exam.h"
 
+int Exam::getMaxQuestions() const {
+    return maxQuestions;
+}
 
-class Exam{
-private:
-    int maxQuestions;
-    int questionCount;
-    Category category;
-    Map<int,Question> questions;
-public:
-    int getMaxQuestions() const {
-        return maxQuestions;
-    }
+void Exam::setMaxQuestions(int maxQuestions) {
+    Exam::maxQuestions = maxQuestions;
+}
 
-    void setMaxQuestions(int maxQuestions) {
-        Exam::maxQuestions = maxQuestions;
-    }
+int Exam::getQuestionCount() const {
+    return questionCount;
+}
 
-    int getQuestionCount() const {
-        return questionCount;
-    }
+void Exam::setQuestionCount(int questionCount) {
+    Exam::questionCount = questionCount;
+}
 
-    void setQuestionCount(int questionCount) {
-        Exam::questionCount = questionCount;
-    }
+const Category &Exam::getCategory() const {
+    return category;
+}
 
-    const Category &getCategory() const {
-        return category;
-    }
+void Exam::setCategory(const Category &category) {
+    Exam::category = category;
+}
 
-    void setCategory(const Category &category) {
-        Exam::category = category;
-    }
+Map<int, Question> &Exam::getQuestions() {
+    return questions;
+}
 
-    Map<int, Question> &getQuestions() {
-        return questions;
-    }
+void Exam::setQuestions(const Map<int, Question> &questions) {
+    Exam::questions = questions;
+}
 
-    void setQuestions(const Map<int, Question> &questions) {
-        Exam::questions = questions;
-    }
-    bool addQuestion(Question const& question){
-        if (maxQuestions == questions.size()) return false;
-        questions.put(++questionCount,question);
-        return true;
-    }
-};
-
-#endif
+bool Exam::addQuestion(Question const& question){
+    if (maxQuestions == questions.size()) return false;
+    questions.put(++questionCount,question);
+    return true;
+}

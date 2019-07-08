@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Sherif\CLionProjects\untitled
+CMAKE_SOURCE_DIR = C:\Users\s.huseynli\CLionProjects\Exam2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Sherif\CLionProjects\untitled\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -473,59 +473,32 @@ repository/CategoryRepository.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.s
 .PHONY : repository/CategoryRepository.cpp.s
 
-repository/ExamSessionRespository.obj: repository/ExamSessionRespository.cpp.obj
+repository/ExamSessionRepository.obj: repository/ExamSessionRepository.cpp.obj
 
-.PHONY : repository/ExamSessionRespository.obj
-
-# target to build an object file
-repository/ExamSessionRespository.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.obj
-.PHONY : repository/ExamSessionRespository.cpp.obj
-
-repository/ExamSessionRespository.i: repository/ExamSessionRespository.cpp.i
-
-.PHONY : repository/ExamSessionRespository.i
-
-# target to preprocess a source file
-repository/ExamSessionRespository.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.i
-.PHONY : repository/ExamSessionRespository.cpp.i
-
-repository/ExamSessionRespository.s: repository/ExamSessionRespository.cpp.s
-
-.PHONY : repository/ExamSessionRespository.s
-
-# target to generate assembly for a file
-repository/ExamSessionRespository.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamSessionRespository.cpp.s
-.PHONY : repository/ExamSessionRespository.cpp.s
-
-repository/StandardRepository.obj: repository/StandardRepository.cpp.obj
-
-.PHONY : repository/StandardRepository.obj
+.PHONY : repository/ExamSessionRepository.obj
 
 # target to build an object file
-repository/StandardRepository.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/StandardRepository.cpp.obj
-.PHONY : repository/StandardRepository.cpp.obj
+repository/ExamSessionRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj
+.PHONY : repository/ExamSessionRepository.cpp.obj
 
-repository/StandardRepository.i: repository/StandardRepository.cpp.i
+repository/ExamSessionRepository.i: repository/ExamSessionRepository.cpp.i
 
-.PHONY : repository/StandardRepository.i
+.PHONY : repository/ExamSessionRepository.i
 
 # target to preprocess a source file
-repository/StandardRepository.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/StandardRepository.cpp.i
-.PHONY : repository/StandardRepository.cpp.i
+repository/ExamSessionRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.i
+.PHONY : repository/ExamSessionRepository.cpp.i
 
-repository/StandardRepository.s: repository/StandardRepository.cpp.s
+repository/ExamSessionRepository.s: repository/ExamSessionRepository.cpp.s
 
-.PHONY : repository/StandardRepository.s
+.PHONY : repository/ExamSessionRepository.s
 
 # target to generate assembly for a file
-repository/StandardRepository.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/StandardRepository.cpp.s
-.PHONY : repository/StandardRepository.cpp.s
+repository/ExamSessionRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.s
+.PHONY : repository/ExamSessionRepository.cpp.s
 
 repository/UserRepository.obj: repository/UserRepository.cpp.obj
 
@@ -656,12 +629,9 @@ help:
 	@echo ... repository/CategoryRepository.obj
 	@echo ... repository/CategoryRepository.i
 	@echo ... repository/CategoryRepository.s
-	@echo ... repository/ExamSessionRespository.obj
-	@echo ... repository/ExamSessionRespository.i
-	@echo ... repository/ExamSessionRespository.s
-	@echo ... repository/StandardRepository.obj
-	@echo ... repository/StandardRepository.i
-	@echo ... repository/StandardRepository.s
+	@echo ... repository/ExamSessionRepository.obj
+	@echo ... repository/ExamSessionRepository.i
+	@echo ... repository/ExamSessionRepository.s
 	@echo ... repository/UserRepository.obj
 	@echo ... repository/UserRepository.i
 	@echo ... repository/UserRepository.s

@@ -1,11 +1,11 @@
-#ifndef CATEGORY_DAO
-#define CATEGORY_DAO
+//
+// Created by s.huseynli on 7/8/2019.
+//
 
-#include "../repository/CategoryRepository.cpp"
+#include "CategoryDao.h"
 
-class CategoryDao{
-public:
-    static CategoryRepository categoryRepository;
-};
+CategoryRepository & CategoryDao::getRepository(){
+    return repository;
+}
 
-#endif
+CategoryDao *CategoryDao::categoryDao1 = 0;

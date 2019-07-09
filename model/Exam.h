@@ -17,6 +17,14 @@ public:
 private:
     int maxQuestions;
     int questionCount;
+    string description;
+public:
+    static int counter;
+    const string &getDescription() const;
+
+    void setDescription(const string &description);
+
+private:
     Category category;
     Map<int,Question> questions;
 public:

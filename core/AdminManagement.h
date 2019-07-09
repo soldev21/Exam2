@@ -13,13 +13,14 @@ struct Commands {
     const string CR_CAT = "-crcat";
     const string CR_EX = "-crexam";
     const string EXIT = "-exit";
+    const string L_CAT = "-lcat";
+    const string L_EXAM = "-lexam";
     const string HELP = "-help";
 } C;
 
 class AdminManagement {
 
     static Map<string, string> commands;
-    static AdminManagement *management;
     User user;
     static void build();
     AdminManagement();

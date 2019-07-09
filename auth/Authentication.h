@@ -10,7 +10,7 @@
 class Authentication {
     bool checkUser(User const &user);
 public:
-    const AuthResponse authenticate(string username, string password);
+    AuthResponse *authenticate(string username, string password);
     bool add(User&);
 };
 

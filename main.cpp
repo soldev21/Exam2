@@ -13,21 +13,8 @@ using namespace std;
 
 
 int main() {
-
-//    UserDao *userDao = userDao->getInstance();
-//    Authentication authentication;
-//    string username = "sherif";
-//    string password = "123456";
-//    User user;
-//    user.setPassword(Utils::getHashed(password));
-//    user.setUsername(username);
-//    userDao->getRepository().save(user);
-//    AuthResponse authResponse = authentication.authenticate(username,password);
-//    cout<< authResponse.getCode() << " " << authResponse.getUser().getUsername() << endl;
-
     CoreManagement coreManagement;
     coreManagement.start();
-
     return 0;
 }
 

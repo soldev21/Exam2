@@ -19,6 +19,7 @@ public:
     static void editUser();
     static void createCategory();
     static void createExam();
+    static void showExams();
 
 };
 

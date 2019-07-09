@@ -72,12 +72,12 @@ User* AuthManagement::login(){
     username = Utils::read();
     Utils::write("Password: ");
     password = Utils::read();
-    AuthResponse authResponse = authentication.authenticate(username,password);
-    if (authResponse.getCode()==0){
-        Utils::write(authResponse.getDesc());
-        return &authResponse.getUser();
+    AuthResponse *authResponse = authentication.authenticate(username,password);
+    if (authResponse->getCode()==0){
+        Utils::write(authResponse->getDesc());
+        return &authResponse->getUser();
     }else {
-        Utils::write(authResponse.getDesc());
+        Utils::write(authResponse->getDesc());
         return NULL;
     }
 }

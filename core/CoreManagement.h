@@ -6,6 +6,8 @@
 #include "../util/Utils.h"
 #include "../core/AuthManagement.h"
 #include "../core/AdminManagement.h"
+#include "../core/CoreManagement.h"
+#include "../core/UserManagement.h"
 
 class CoreManagement{
 public:
@@ -26,8 +28,8 @@ void CoreManagement::start() {
             AdminManagement *adminManagement = AdminManagement::getInstance(*user);
             adminManagement->start();
         } else {
-//            UserManagement userManagement = new UserManagement(user);
-//            userManagement.start();
+            UserManagement *userManagement = UserManagement::getInstance(*user);
+            userManagement->start();
         }
 
         while (isContinue2) {

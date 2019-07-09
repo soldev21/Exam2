@@ -46,3 +46,13 @@ int Exam::getId() const {
 void Exam::setId(int id) {
     Exam::id = id;
 }
+
+const string &Exam::getDescription() const {
+    return description;
+}
+
+void Exam::setDescription(const string &description) {
+    Exam::description = description;
+}
+
+int Exam::counter = 0;

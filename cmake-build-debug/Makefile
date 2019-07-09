@@ -203,6 +203,33 @@ dao/CategoryDao.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dao/CategoryDao.cpp.s
 .PHONY : dao/CategoryDao.cpp.s
 
+dao/ExamDao.obj: dao/ExamDao.cpp.obj
+
+.PHONY : dao/ExamDao.obj
+
+# target to build an object file
+dao/ExamDao.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj
+.PHONY : dao/ExamDao.cpp.obj
+
+dao/ExamDao.i: dao/ExamDao.cpp.i
+
+.PHONY : dao/ExamDao.i
+
+# target to preprocess a source file
+dao/ExamDao.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dao/ExamDao.cpp.i
+.PHONY : dao/ExamDao.cpp.i
+
+dao/ExamDao.s: dao/ExamDao.cpp.s
+
+.PHONY : dao/ExamDao.s
+
+# target to generate assembly for a file
+dao/ExamDao.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/dao/ExamDao.cpp.s
+.PHONY : dao/ExamDao.cpp.s
+
 dao/ExamSessionDao.obj: dao/ExamSessionDao.cpp.obj
 
 .PHONY : dao/ExamSessionDao.obj
@@ -473,6 +500,33 @@ repository/CategoryRepository.cpp.s:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.s
 .PHONY : repository/CategoryRepository.cpp.s
 
+repository/ExamRepository.obj: repository/ExamRepository.cpp.obj
+
+.PHONY : repository/ExamRepository.obj
+
+# target to build an object file
+repository/ExamRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj
+.PHONY : repository/ExamRepository.cpp.obj
+
+repository/ExamRepository.i: repository/ExamRepository.cpp.i
+
+.PHONY : repository/ExamRepository.i
+
+# target to preprocess a source file
+repository/ExamRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamRepository.cpp.i
+.PHONY : repository/ExamRepository.cpp.i
+
+repository/ExamRepository.s: repository/ExamRepository.cpp.s
+
+.PHONY : repository/ExamRepository.s
+
+# target to generate assembly for a file
+repository/ExamRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/repository/ExamRepository.cpp.s
+.PHONY : repository/ExamRepository.cpp.s
+
 repository/ExamSessionRepository.obj: repository/ExamSessionRepository.cpp.obj
 
 .PHONY : repository/ExamSessionRepository.obj
@@ -599,6 +653,9 @@ help:
 	@echo ... dao/CategoryDao.obj
 	@echo ... dao/CategoryDao.i
 	@echo ... dao/CategoryDao.s
+	@echo ... dao/ExamDao.obj
+	@echo ... dao/ExamDao.i
+	@echo ... dao/ExamDao.s
 	@echo ... dao/ExamSessionDao.obj
 	@echo ... dao/ExamSessionDao.i
 	@echo ... dao/ExamSessionDao.s
@@ -629,6 +686,9 @@ help:
 	@echo ... repository/CategoryRepository.obj
 	@echo ... repository/CategoryRepository.i
 	@echo ... repository/CategoryRepository.s
+	@echo ... repository/ExamRepository.obj
+	@echo ... repository/ExamRepository.i
+	@echo ... repository/ExamRepository.s
 	@echo ... repository/ExamSessionRepository.obj
 	@echo ... repository/ExamSessionRepository.i
 	@echo ... repository/ExamSessionRepository.s

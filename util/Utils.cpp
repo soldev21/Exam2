@@ -4,7 +4,10 @@
 #include "../model/Category.h"
 #include "../model/Exam.h"
 #include "../dao/CategoryDao.h"
+#include "../dao/ExamDao.h"
+#include <sstream>
 
+using namespace std;
 
 string Utils::getHashed(string s){
     return sha256(s);
@@ -46,18 +49,33 @@ void Utils::createCategory(){
     category->setDescription(read());
     write("Enter sub category name: ");
     category->setSubCategory(read());
+    category->setId(++Category::counter);
     CategoryDao::getInstance()->getRepository().save(*category);
+    writeln("Category successfully created");
 }
 
 void Utils::createExam(){
     Exam *exam = new Exam();
     Utils::write("Enter max question: ");
     exam->setMaxQuestions(atoi (Utils::read().c_str()));
-    Utils::writeln("Choose category");
+    Category *category=0;
+    Utils::writeln("Choose category: ");
     vector<Category*> * vector1 = CategoryDao::getInstance()->getRepository().findAll();
-    for(vector<Category*>::iterator itr = vector1->begin();itr!=vector1->end();++itr){
-        Utils::write((*itr)->getDescription());
+    while (!category) {
+        for (vector<Category *>::iterator itr = vector1->begin(); itr != vector1->end(); ++itr) {
+            stringstream s;
+            s << (*itr)->getId() << ". " << (*itr)->getDescription();
+            Utils::writeln(s.str());
+        }
+        category = CategoryDao::getInstance()->getRepository().findByKey(atoi(Utils::read().c_str()));
+
+        if (category) {
+            exam->setCategory(*category);
+            ExamDao::getInstance()->getRepository().save(*exam);
+            Utils::writeln("Exam successfully created!");
+        } else {
+            Utils::writeln("Please enter correct category number!");
+        }
     }
-    exam->setCategory(*CategoryDao::getInstance()->getRepository().findByKey(atoi(Utils::read().c_str())));
-//    ExamDao::.examRepository.save(exam);
+
 }

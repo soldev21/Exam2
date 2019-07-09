@@ -21,6 +21,15 @@ CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj
  C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj
+ C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.cpp
+ C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
 CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj
  C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
  C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.cpp
@@ -88,6 +97,14 @@ CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.cpp
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj
+ C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.cpp
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
 CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj
  C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
  C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
@@ -106,8 +123,15 @@ CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/UserRepository.h
 CMakeFiles/untitled.dir/util/Utils.cpp.obj
  C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h
  C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
  C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h
+ C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
  C:/Users/s.huseynli/CLionProjects/Exam2/repository/UserRepository.h
  C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.cpp

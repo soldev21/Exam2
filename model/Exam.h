@@ -8,6 +8,13 @@
 
 class Exam {
 private:
+    int id;
+public:
+    int getId() const;
+
+    void setId(int id);
+
+private:
     int maxQuestions;
     int questionCount;
     Category category;

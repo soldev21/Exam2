@@ -25,3 +25,5 @@ const string &Category::getSubCategory() const {
 void Category::setSubCategory(const string &subCategory) {
     Category::subCategory = subCategory;
 }
+
+int Category::counter = 0;

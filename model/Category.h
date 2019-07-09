@@ -13,6 +13,7 @@ private:
     string description;
     string subCategory;
 public:
+    static int counter;
     int getId() const;
 
     void setId(int id);

@@ -277,6 +277,32 @@ CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamSessionDao.cpp -o CMakeFiles\untitled.dir\dao\ExamSessionDao.cpp.s
 
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../repository/ExamRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\repository\ExamRepository.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\repository\ExamRepository.cpp
+
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/repository/ExamRepository.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\repository\ExamRepository.cpp > CMakeFiles\untitled.dir\repository\ExamRepository.cpp.i
+
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/repository/ExamRepository.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\repository\ExamRepository.cpp -o CMakeFiles\untitled.dir\repository\ExamRepository.cpp.s
+
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../dao/ExamDao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\dao\ExamDao.cpp.obj -c C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamDao.cpp
+
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/dao/ExamDao.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamDao.cpp > CMakeFiles\untitled.dir\dao\ExamDao.cpp.i
+
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/dao/ExamDao.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\s.huseynli\CLionProjects\Exam2\dao\ExamDao.cpp -o CMakeFiles\untitled.dir\dao\ExamDao.cpp.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
@@ -295,7 +321,9 @@ untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj" \
 "CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj" \
 "CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj" \
-"CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj"
+"CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj" \
+"CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj" \
+"CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -317,11 +345,13 @@ untitled.exe: CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
 untitled.exe: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\s.huseynli\CLionProjects\Exam2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable untitled.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

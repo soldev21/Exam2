@@ -110,6 +110,12 @@
 		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.cpp">
 			<Option target="untitled"/>
 		</Unit>
@@ -165,6 +171,12 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.cpp">

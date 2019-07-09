@@ -21,6 +21,15 @@ CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: ../model/Category.h
 CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: ../repository/CategoryRepository.h
 CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj: ../repository/StandardRepository.h
 
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../collections/Map.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../dao/ExamDao.cpp
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../dao/ExamDao.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../model/Category.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../model/Exam.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../model/Question.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../repository/ExamRepository.h
+CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj: ../repository/StandardRepository.h
+
 CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: ../collections/Map.h
 CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: ../dao/ExamSessionDao.cpp
 CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj: ../dao/ExamSessionDao.h
@@ -88,6 +97,14 @@ CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: ../repository/Cat
 CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: ../repository/CategoryRepository.h
 CMakeFiles/untitled.dir/repository/CategoryRepository.cpp.obj: ../repository/StandardRepository.h
 
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../collections/Map.h
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../model/Category.h
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../model/Exam.h
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../model/Question.h
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../repository/ExamRepository.cpp
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../repository/ExamRepository.h
+CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj: ../repository/StandardRepository.h
+
 CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj: ../collections/Map.h
 CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj: ../model/Category.h
 CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj: ../model/Exam.h
@@ -105,8 +122,15 @@ CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj: ../repository/UserRep
 CMakeFiles/untitled.dir/repository/UserRepository.cpp.obj: ../repository/UserRepository.h
 
 CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../collections/Map.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../dao/CategoryDao.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../dao/ExamDao.h
 CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../dao/UserDao.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../model/Category.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../model/Exam.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../model/Question.h
 CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../model/User.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../repository/CategoryRepository.h
+CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../repository/ExamRepository.h
 CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../repository/StandardRepository.h
 CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../repository/UserRepository.h
 CMakeFiles/untitled.dir/util/Utils.cpp.obj: ../util/Utils.cpp

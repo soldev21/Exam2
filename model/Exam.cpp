@@ -38,3 +38,11 @@ bool Exam::addQuestion(Question const& question){
     questions.put(++questionCount,question);
     return true;
 }
+
+int Exam::getId() const {
+    return id;
+}
+
+void Exam::setId(int id) {
+    Exam::id = id;
+}

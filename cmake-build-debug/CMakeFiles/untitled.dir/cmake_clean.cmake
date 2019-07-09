@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/repository/ExamSessionRepository.cpp.obj"
   "CMakeFiles/untitled.dir/dao/CategoryDao.cpp.obj"
   "CMakeFiles/untitled.dir/dao/ExamSessionDao.cpp.obj"
+  "CMakeFiles/untitled.dir/repository/ExamRepository.cpp.obj"
+  "CMakeFiles/untitled.dir/dao/ExamDao.cpp.obj"
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"

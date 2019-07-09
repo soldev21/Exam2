@@ -6,63 +6,31 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/s.huseynli/CLionProjects/Exam2/auth/Authentication.h
-../model/AuthResponse.h
-C:/Users/s.huseynli/CLionProjects/Exam2/model/AuthResponse.h
-../dao/UserDao.h
-C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h
-../util/Utils.h
-C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h
-
 C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
 map
 -
 
-C:/Users/s.huseynli/CLionProjects/Exam2/core/AdminManagement.h
-../collections/Map.h
-C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
-../model/User.h
-C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h
-../util/Utils.h
-C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h
-../core/AuthManagement.h
-C:/Users/s.huseynli/CLionProjects/Exam2/core/AuthManagement.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.h
+../repository/CategoryRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h
 
-C:/Users/s.huseynli/CLionProjects/Exam2/core/AuthManagement.h
-../auth/Authentication.h
-C:/Users/s.huseynli/CLionProjects/Exam2/auth/Authentication.h
-
-C:/Users/s.huseynli/CLionProjects/Exam2/core/CoreManagement.h
-../util/Utils.h
-C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h
-../core/AuthManagement.h
-C:/Users/s.huseynli/CLionProjects/Exam2/core/AuthManagement.h
-../core/AdminManagement.h
-C:/Users/s.huseynli/CLionProjects/Exam2/core/AdminManagement.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h
+../repository/ExamRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
 
 C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h
 ../repository/UserRepository.h
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/UserRepository.h
 
-C:/Users/s.huseynli/CLionProjects/Exam2/main.cpp
-iostream
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+string
 -
-util/Utils.h
-C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h
-model/Question.h
-C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
-model/AuthResponse.h
-C:/Users/s.huseynli/CLionProjects/Exam2/model/AuthResponse.h
-auth/Authentication.h
-C:/Users/s.huseynli/CLionProjects/Exam2/auth/Authentication.h
-dao/UserDao.h
-C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h
-core/CoreManagement.h
-C:/Users/s.huseynli/CLionProjects/Exam2/core/CoreManagement.h
 
-C:/Users/s.huseynli/CLionProjects/Exam2/model/AuthResponse.h
-User.h
-C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+Category.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+Question.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
 
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
 string
@@ -76,7 +44,21 @@ C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h
 string
 -
 
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h
+StandardRepository.h
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
+../model/Category.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
+StandardRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
+../model/Exam.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
+vector
+-
 ../collections/Map.h
 C:/Users/s.huseynli/CLionProjects/Exam2/collections/Map.h
 
@@ -85,6 +67,22 @@ StandardRepository.h
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
 ../model/User.h
 C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.cpp
+Utils.h
+C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h
+../dao/UserDao.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h
+../model/Category.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
+../model/Exam.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+../dao/CategoryDao.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.h
+../dao/ExamDao.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h
+sstream
+-
 
 C:/Users/s.huseynli/CLionProjects/Exam2/util/Utils.h
 string

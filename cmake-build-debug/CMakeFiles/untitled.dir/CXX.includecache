@@ -14,9 +14,21 @@ C:/Users/s.huseynli/CLionProjects/Exam2/dao/CategoryDao.h
 ../repository/CategoryRepository.h
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/CategoryRepository.h
 
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.cpp
+ExamDao.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h
+
 C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamDao.h
 ../repository/ExamRepository.h
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.cpp
+ExamSessionDao.h
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/dao/ExamSessionDao.h
+../repository/ExamSessionRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.h
 
 C:/Users/s.huseynli/CLionProjects/Exam2/dao/UserDao.h
 ../repository/UserRepository.h
@@ -26,11 +38,25 @@ C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
 string
 -
 
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.cpp
+Exam.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
 Category.h
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
 Question.h
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/model/ExamSession.cpp
+ExamSession.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/ExamSession.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/model/ExamSession.h
+User.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/User.h
+Exam.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
 
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Question.h
 string
@@ -50,11 +76,25 @@ C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
 ../model/Category.h
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Category.h
 
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.cpp
+ExamRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
+
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamRepository.h
 StandardRepository.h
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
 ../model/Exam.h
 C:/Users/s.huseynli/CLionProjects/Exam2/model/Exam.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.cpp
+ExamSessionRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.h
+
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/ExamSessionRepository.h
+StandardRepository.h
+C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
+../model/ExamSession.h
+C:/Users/s.huseynli/CLionProjects/Exam2/model/ExamSession.h
 
 C:/Users/s.huseynli/CLionProjects/Exam2/repository/StandardRepository.h
 vector

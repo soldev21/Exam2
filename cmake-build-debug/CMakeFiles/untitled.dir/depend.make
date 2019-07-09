@@ -53,6 +53,7 @@ CMakeFiles/untitled.dir/main.cpp.obj: ../collections/Map.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../core/AdminManagement.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../core/AuthManagement.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../core/CoreManagement.h
+CMakeFiles/untitled.dir/main.cpp.obj: ../core/UserManagement.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../dao/UserDao.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/untitled.dir/main.cpp.obj: ../model/AuthResponse.h

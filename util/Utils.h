@@ -1,6 +1,3 @@
-//
-// Created by s.huseynli on 7/8/2019.
-//
 
 #ifndef UNTITLED_UTILS_H
 #define UNTITLED_UTILS_H

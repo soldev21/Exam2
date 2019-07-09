@@ -1,6 +1,4 @@
-//
-// Created by s.huseynli on 7/8/2019.
-//
+
 
 #ifndef UNTITLED_CATEGORY_H
 #define UNTITLED_CATEGORY_H

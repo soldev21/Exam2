@@ -27,8 +27,8 @@ void Utils::writeln(string s){
 bool Utils::changePassword(User user){
     write("Please enter new password: ");
     string s  = read();
-    if (!s.empty()) user.setPassword(getHashed(s)); else {
-        writeln("Password unsuccessfully changed");
+    if (!s.empty() && s!="\n") user.setPassword(getHashed(s)); else {
+        writeln("Password change unsuccessfully completed!");
         return false;
     };
     UserDao::getInstance()->getRepository().save(user);
@@ -49,7 +49,7 @@ void Utils::createCategory(){
     CategoryDao::getInstance()->getRepository().save(*category);
 }
 
-void createExam(){
+void Utils::createExam(){
     Exam *exam = new Exam();
     Utils::write("Enter max question: ");
     exam->setMaxQuestions(atoi (Utils::read().c_str()));

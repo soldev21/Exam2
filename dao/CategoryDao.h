@@ -1,6 +1,4 @@
-//
-// Created by s.huseynli on 7/8/2019.
-//
+
 
 #ifndef UNTITLED_CATEGORYDAO_H
 #define UNTITLED_CATEGORYDAO_H

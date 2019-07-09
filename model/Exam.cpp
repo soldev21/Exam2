@@ -1,6 +1,3 @@
-//
-// Created by s.huseynli on 7/8/2019.
-//
 
 #include "Exam.h"
 

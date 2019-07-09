@@ -36,7 +36,12 @@ private:
 
 template<class K, class V>
 void Map<K, V>::put(K const &k, V const &v) {
-    reg.insert(pair<K, V>(k, v));
+    typename map<K,V>::iterator it = reg.find(k);
+    if (it!=reg.end()){
+        it->second = v;
+    } else{
+        reg.insert(make_pair(k,v));
+    }
 }
 
 template<class K, class V>

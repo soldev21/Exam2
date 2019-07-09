@@ -1,7 +1,3 @@
-//
-// Created by s.huseynli on 7/8/2019.
-//
-
 #ifndef UNTITLED_ADMINMANAGEMENT_H
 #define UNTITLED_ADMINMANAGEMENT_H
 
@@ -95,7 +91,7 @@ void AdminManagement::handleCommand(string const command) {
     } else if (command == C.ED_U) {
         Utils::editUser();
     } else if (command == C.CR_CAT) {
-        Utils::createCategory(){}
+        Utils::createCategory();
     } else if (command == C.CR_EX) {
         Utils::createExam();
 

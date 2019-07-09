@@ -6,9 +6,10 @@
 #include "auth/Authentication.h"
 #include "dao/UserDao.h"
 #include "core/CoreManagement.h"
+#include <string>
+#include <map>
 
 using namespace std;
-
 
 
 int main() {
@@ -29,3 +30,6 @@ int main() {
 
     return 0;
 }
+
+
+

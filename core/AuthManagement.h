@@ -51,7 +51,7 @@ User* AuthManagement::register1() {
     user->setUsername(s);
     Utils::write("Password: ");
     s = Utils::read();
-    user->setPassword(s);
+    user->setPassword(Utils::getHashed(s));
     Utils::write("Name: ");
     s = Utils::read();
     user->setName(s);

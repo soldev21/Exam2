@@ -25,7 +25,7 @@ bool Authentication::add(User &user){
     if (user.getPassword().empty()) return false;
     if (UserDao::getInstance()->getRepository().findByKey(user.getUsername())!=NULL) return false;
     if (checkUser(user)){
-        user.setPassword(Utils::getHashed(user.getPassword()));
+        user.setPassword(user.getPassword());
         UserDao::getInstance()->getRepository().save(user);
         return true;
     }else return false;

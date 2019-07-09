@@ -1,6 +1,4 @@
-//
-// Created by s.huseynli on 7/8/2019.
-//
+
 
 #include "ExamSessionRepository.h"
 
@@ -12,4 +10,8 @@ void ExamSessionRepository::save(ExamSession const& u){
 }
 void ExamSessionRepository::remove(ExamSession const& u){
     registry.remove(u.getUser().getUsername());
+}
+
+vector<ExamSession*>* ExamSessionRepository::findAll(){
+    return NULL;
 }
